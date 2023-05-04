@@ -5,8 +5,8 @@ public class Data {
     private int ano;
 
     public Data(int dia, int mes, int ano) {
-        //if(! isDataValida(dia, mes, ano))
-        // throw new IllegalArgumentException("A data está errada.");
+        if(! isDataValida(dia, mes, ano))
+           System.out.println("Erro");
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
