@@ -6,7 +6,7 @@ public class Data {
 
     public Data(int dia, int mes, int ano) {
         if(! isDataValida(dia, mes, ano))
-           System.out.println("Erro");
+          System.out.println("Erro");
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
